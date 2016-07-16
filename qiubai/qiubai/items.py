@@ -11,3 +11,4 @@ import scrapy
 class QiubaiItem(scrapy.Item):
     author = scrapy.Field()
     content = scrapy.Field()
+    comments = scrapy.Field()
